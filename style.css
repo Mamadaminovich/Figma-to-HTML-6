@@ -51,14 +51,16 @@ img {
   gap: 14px;
 }
 .nav_link {
+  width: 400px;
   font-weight: 400;
   font-size: 15px;
   line-height: 33px;
   color: var(--color1);
-  display: flex;
-  align-items: center;
   gap: 30px;
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nav_link li a {
   text-decoration: none;
@@ -68,7 +70,7 @@ img {
   color: var(--color1);
   transition: 0.4s ease-in-out;
   border-bottom: 1px solid transparent;
-  padding-bottom: 2px;
+  padding-bottom: 4px;
 }
 .nav_btn {
   font-weight: 700;
@@ -143,8 +145,11 @@ img {
   gap: 30px;
 }
 .f_item_img {
-  width: 88px;
-  height: 88px;
+  width: 98px;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .f_item_text h3 {
   font-weight: 700;
@@ -857,12 +862,20 @@ footer form input[type="submit"] {
   border: 2px solid var(--color1);
 }
 footer form input[type="submit"]:hover {
-  border: 1px solid var(--color4);
-  background: var(--color4);
+  border: 2px solid #ffffff00;
+  background: #ffffff0e;
   color: var(--color_white);
 }
 .footer_foot ul li a:hover {
   letter-spacing: 1px;
   font-size: 16px;
   border-bottom: 1px solid var(--color_white);
+}
+.rotate_image {
+  width: 88px;
+  height: 88px;
+  transition: 0.3s ease-in-out;
+}
+.rotate_image:hover {
+  transform: rotate(-180deg);
 }
