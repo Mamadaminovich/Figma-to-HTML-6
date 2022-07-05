@@ -879,12 +879,3 @@ footer form input[type="submit"]:hover {
 .rotate_image:hover {
   transform: rotate(-180deg);
 }
-.btn_right:hover {
-  color: var(--color1);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-}
-.btn_right:hover .btn_bottom {
-  border: 2px solid var(--color1);
-}

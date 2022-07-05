@@ -29,6 +29,7 @@ $(".comment_slider").slick({
   variableWidth: true,
 });
 
+
 let acc = document.getElementsByClassName("accordion");
 let i;
 for (i = 0; i < acc.length; i++) {
@@ -42,3 +43,4 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
